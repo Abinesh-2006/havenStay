@@ -1,0 +1,65 @@
+.filter-sidebar {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e3e7ed;
+    border-radius: 10px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    justify-content: space-between;
+}
+
+.filter-sidebar input {
+    padding: 8px;
+    border: 1px solid #e3e7ed;
+    border-radius: 8px;
+    height: 38px;
+    color:#111827;
+    font-size:15px;
+    box-sizing: border-box;
+    min-width: 0;
+    background-color: #dadee3;
+}
+
+.filter-sidebar input[type="text"] {
+    flex: 2;
+}
+
+.filter-sidebar input[type="number"] {
+    flex: 1;
+}
+.filter-sidebar select {
+    flex: 1.2;
+    height: 38px;
+    font-size:15px;
+    padding: 8px;
+    border: 1px solid #b9c9e2;
+    border-radius: 8px;
+    background-color: #dadee3;
+    color: rgb(107, 104, 104);
+}
+.filter-button {
+    padding: 10px 15px;
+    background-color: #586685;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.filter-button:hover {
+    background-color: #2563eb;
+}
+.reset-button {
+    padding: 10px;
+    background-color: white;
+    color: #64748b;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.reset-button:hover {
+    background-color:rgb(232, 233, 234);
+}

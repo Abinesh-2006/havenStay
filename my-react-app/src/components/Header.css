@@ -1,0 +1,43 @@
+.header{
+    color: black;
+    padding:0px 0px;
+    padding-left: 0px;
+    display:flex;
+    margin:20px;
+    gap:20px;
+}
+.hotel-list{
+    font-size: 24px;
+    color: black;
+    display:inline-block;
+    padding-left: 15px;
+    width:500px;
+    height: 100px;
+    margin: 0px;
+    text-align: start;
+}
+.hotel-list h1{
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight:bold;
+    font-style: italic;
+}
+.add-hotel{
+    display: inline-block;
+    padding-top:50px ;
+    padding-left:300px;
+    height:100px;
+    width:500px;
+    margin:0px;
+
+}
+.add-hotel button{
+    font-size: 15px;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    color:white;
+    cursor: pointer;
+    background-color: #355c92 ;
+}
