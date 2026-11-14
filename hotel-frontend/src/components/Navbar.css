@@ -5,6 +5,7 @@
     padding: 15px 40px;
     align-items: center;
     border-bottom: 1px solid #fafafa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .logo{
     border-radius: 10%;

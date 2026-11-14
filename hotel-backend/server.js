@@ -11,8 +11,8 @@ app.get('/api/hotels', async (req, res) => {
     try {
         const [hotels] = await db.query(
             `SELECT id, title, description, latitude,
-             longitude, price, image_url AS imageUrl
-             FROM hotels`
+            longitude, price, image_url AS imageUrl
+            FROM hotels`
         );
 
         res.json(hotels);
