@@ -21,8 +21,7 @@ The application provides CRUD (Create, Read, Update, Delete) operations for mana
 - JavaScript
 - React Router DOM
 - React Helmet Async
-- Lucide React Icons
-
+  
 ### Backend
 - Node.js
 - Express.js
@@ -33,7 +32,6 @@ The application provides CRUD (Create, Read, Update, Delete) operations for mana
 
 ### Development Tools
 - Visual Studio Code
-- Postman
 - Git
 - GitHub
 - MySQL Workbench
@@ -100,19 +98,19 @@ Follow these steps to run the project on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Abinesh-2006/havenStay
 ```
 
 ### 2. Navigate to the Project Folder
 
 ```bash
-cd Hotel-Booking-System
+cd NamlatechProject
 ```
 
 ### 3. Setup Frontend
 
 ```bash
-cd my-react-app
+cd hotel-frontend
 npm install
 ```
 
@@ -169,33 +167,11 @@ http://localhost:5173
 | PUT | `/api/hotels/:id` | Update hotel details |
 | DELETE | `/api/hotels/:id` | Delete a hotel |
 
-## 📸 Application Screenshots
-
-Screenshots of the application can be added here.
-
-```markdown
-![Home Page](screenshots/home.png)
-
-![Add Hotel Page](screenshots/add-hotel.png)
-
-![Hotel Details](screenshots/hotel-details.png)
-```
-
 ## 🎯 Project Objective
 
 The main objective of this project is to develop a full-stack web application that demonstrates practical knowledge of frontend development, backend API integration, database connectivity, CRUD operations, and responsive web design.
 
-## 🚀 Future Enhancements
-
-- User registration and login.
-- Online hotel booking functionality.
-- Secure payment gateway integration.
-- Hotel availability checking.
-- Booking history and management.
-- User reviews and ratings.
-
 ## 👨‍💻 Developer
-
 **Abinesh P**
 
 - GitHub: [Abinesh-2006](https://github.com/Abinesh-2006)
